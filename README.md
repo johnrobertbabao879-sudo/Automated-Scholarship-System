@@ -65,8 +65,8 @@
 - **Classes and Objects:** Entities such as `Applicant`, `ScholarshipApplication`, `GovernmentDocument`, `Disbursement`, `ScholarshipManager`, and `Main` encapsulate individual records and system operations.
 - **Methods:** Operational logic is modularized into methods like `validateDocument()`, `updateStatus()`, `recordDisbursement()`, and `generateSummary()`.
 - **Encapsulation:** Sensitive fields (such as student `gwa`, household income, and disbursement `amount`) are declared `private` and accessed strictly through getters and setters.
-- **Inheritance:** *[Ilagay ang parent-child classes ninyo, hal. `Applicant` at `Admin` ay nag-i-inherit mula sa base class na `User`]*
-- **Polymorphism:** *[Ilagay ang method overriding/overloading na ginamit ninyo, hal. overridden `displayDetails()` o `validate()` methods]*
+- **Inheritance:** AcademicRecord, IncomeCertificate, and IdentificationDocument inherit common attributes and methods from GovernmentDocument.
+- **Polymorphism:** Method overriding allows different document classes to implement their own validateDocument() logic, while method overloading allows searchApplicant() to search using different parameters. 
 - **Abstraction:** Internal document checking and tracking algorithms are hidden behind clean, menu-driven user interfaces.
 - **Exception Handling:** Uses `try-catch` blocks to catch invalid user inputs, non-numeric entries, and out-of-bounds menu selections.
 - **Arrays / Data Handling:** Utilizes `ArrayList` to dynamically store, search, filter, and generate reports from records.
