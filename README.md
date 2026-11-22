@@ -55,9 +55,9 @@
 ## Team Members and Roles
 | No. | SR Code | Name | Role / Assigned Tasks |
 | :---: | :---: | :--- | :--- |
-| 1 | 25-05743 | **Babao, John Robert M.** | *[Ilagay ang assigned task, hal. System Architecture & Validation Logic]* |
-| 2 | 25-04523 | **Driz, Jelie May M.** | *[Ilagay ang assigned task, hal. UI/Menu Flow & Application Tracking]* |
-| 3 | 25-02583 | **Luna, Jovelyn** | *[Ilagay ang assigned task, hal. Disbursement Module, Reports & Documentation]* |
+| 1 | 25-05743 | **Babao, John Robert M.** | Leader, Programmer |
+| 2 | 25-04523 | **Driz, Jelie May M.** | Documentation |
+| 3 | 25-02583 | **Luna, Jovelyn** | System Outline |
 
 ---
 
